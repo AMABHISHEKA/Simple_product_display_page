@@ -1,0 +1,139 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+  }
+
+  .head-part {
+       display:flex;
+       justify-content: space-around;
+       padding:5px;
+       margin:5px;
+     
+  }
+  .main-heading {
+       color:violet;
+       padding: 5px;
+  }
+
+  span {
+       color:tomato;
+  }
+
+  span:hover {
+       color:#0b8377;
+       transition : 0.5s;
+       cursor:pointer;
+  }
+
+  .Nav-items {
+       display:flex;
+      
+  }
+
+  .nav-item{
+       list-style-type: none;
+       font-size:20px;
+       font-weight:bold;
+       padding: 5px;
+       margin:5px;
+  }
+
+   .nav-item a {
+       text-decoration: none;
+       color : black;
+   }
+
+   .nav-item a:hover {
+       color: #ff9898;
+       transition: 0.3s;
+       cursor:pointer;
+   }
+
+  .organic-heading {
+       padding-top:0px;
+       padding-bottom: 10px;
+       text-align: center;
+}
+
+  .card-details {
+       display:inline-block;
+       justify-content: space-between;
+       align-content: center;
+       padding:2px 5px;
+       margin:10px;
+      
+  }
+
+  .card-heading, .card-text, .card-price {
+       text-align: center;
+  }
+  
+  .card-picture {
+       width:230px;
+       height:200px;
+       padding:5px;
+
+  }
+
+  .slider {
+       position:relative;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 0px;
+       margin-top: 0px;
+  }
+
+  .img-carous {
+       width: 1100px;
+       height: 600px;
+       border-radius:  10px;
+  }
+
+  .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 170px;
+        font-size: 3rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+  }
+
+  .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 170px;
+        font-size: 3rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+}
+/* 
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+} */
+
+.slide:active{
+        opacity: 1;
+        transition-duration: 1s ease;
+        transform: scale(1.08);
+}
+
+.footer-copyrights, .footer-content  {
+        text-align: center;
+        padding: 4px;
+        margin: 6px;
+ }
+
+ .footer-copyrights {
+        font-weight:bold;
+     
+ }
+
+ 
